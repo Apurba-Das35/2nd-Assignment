@@ -142,6 +142,9 @@
 /* Plants lover section end */
 
 /* branch section start */
+.branch-section{
+    margin-top: 100px;
+}
 .branch-img {
   position: absolute;
 }
@@ -176,3 +179,40 @@
   outline: none;
 }
 /* branch section end */
+
+/* footer section start */
+.footer-section {
+  height: 300px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-1st p {
+  width: 350px;
+  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+}
+.footer-2nd {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.footer-3rd {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.footer-4th {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 190px;
+}
+/* footer section end */
