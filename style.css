@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
+/* banner section start */
 .banner-section {
-    margin-top: 120px;
+  margin-top: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,3 +33,67 @@
   width: 720px;
   border: 2px dashed rgba(0, 0, 0, 0.5);
 }
+/* banner section end */
+
+/* Our plants start */
+.plants-tittle {
+  text-align: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.plants-tittle h2 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+  width: 1440px;
+}
+.plants-tittle p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 270px;
+  width: 900px;
+}
+.plants-tittle span {
+  color: rgb(233, 90, 8);
+}
+.plants-section-parents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  gap: 50px;
+}
+.plants-section h5 {
+  color: rgb(17, 17, 17);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.plants-section h3 {
+  color: rgb(17, 17, 17);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.add-cart-btn {
+  width: 270px;
+  height: 50px;
+  background-color: rgb(233, 90, 8);
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+/* Our plants end */
