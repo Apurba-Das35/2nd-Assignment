@@ -124,21 +124,21 @@
   line-height: 30px;
   list-style-type: disc;
 }
-.plants-lover li{
-    padding-top: 30px;
+.plants-lover li {
+  padding-top: 30px;
 }
 .flower-store-img {
   width: 600px;
   height: 550px;
   margin-left: 50px;
 }
-.trusted-badge{
-    position: absolute;
-    top: 2090px;
-    left: 525px;
-    width: 250px;
-    height: 250px;
-   
+.trusted-badge {
+  position: absolute;
+  top: 2090px;
+  left: 525px;
+  width: 250px;
+  height: 250px;
 }
-
 /* Plants lover section end */
+
+
