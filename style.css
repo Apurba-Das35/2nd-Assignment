@@ -111,7 +111,7 @@
   font-family: Noto Serif;
   font-size: 50px;
   font-weight: 700;
-  width: 720px;
+  width: 500px;
   padding-left: 100px;
 }
 .plants-lover ol {
@@ -135,15 +135,15 @@
 .trusted-badge {
   position: absolute;
   top: 2090px;
-  left: 525px;
+  left: 560px;
   width: 250px;
   height: 250px;
 }
 /* Plants lover section end */
 
 /* branch section start */
-.branch-section{
-    margin-top: 100px;
+.branch-section {
+  margin-top: 100px;
 }
 .branch-img {
   position: absolute;
@@ -216,3 +216,113 @@
   margin-bottom: 190px;
 }
 /* footer section end */
+
+/* mobile responsive style start */ /* mobile responsive style start */
+
+/* navbar responsive start */
+@media screen and (max-width: 576px) {
+  .navbar {
+    width: 576px;
+  }
+  .list-1,
+  .list-2,
+  .list-3 {
+    display: none;
+  }
+  .list-4 {
+    margin-right: 60px;
+  }
+  .list-4 a {
+    font-size: 30px;
+  }
+
+  /* navbar responsive end */
+
+  /* banner responsive start */
+  .banner-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-left: px;
+  }
+  .banner-tittle h1 {
+    font-size: 40px;
+  }
+  .banner-tittle p {
+    width: 500px;
+    font-size: 20px;
+  }
+  .banner-img img {
+    width: 555px;
+    height: 400px;
+    margin-top: 20px;
+    border: none;
+  }
+  /* banner responsive end */
+
+  /* our plants section responsive start */
+
+  .plants-tittle h2 {
+    width: 576px;
+  }
+  .plants-tittle p {
+    width: 500px;
+    margin-left: 30px;
+  }
+  .plants-section-parents {
+    width: 576px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 70px;
+  }
+  .plants-section {
+    width: 250px;
+  }
+  .plants-section button {
+    width: 250px;
+  }
+  /* our plants section responsive end */
+
+  /* Plants lover section responsive start */
+  .plants-lover{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .store-badge {
+    display: none;
+  }
+  .store-flower {
+    width: 520px;
+    height: 500px;
+    margin-left: 18px;
+    padding-top: 0px;
+  }
+  .plants-lover-tittle h2{
+    padding-left: 18px;
+    width: 576px;
+    font-size: 42px;
+  }
+  .plants-lover-ol li{
+    font-size: 16px;
+    line-height: 20px;
+    width: 430px;
+  }
+  /* Plants lover section responsive end */
+
+
+  /* latest-deal- section responsive start */
+  .latest-deal-tittle h2{
+    width: 500px;
+    padding-top: 0px;
+    
+  }
+  .latest-deal-tittle p{
+    width: 500px;
+    padding-left: 20px;
+    margin-left: 0;
+    font-size: 18px;
+  }
+  /* latest-deal- section responsive end */
+}
