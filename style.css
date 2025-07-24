@@ -347,6 +347,11 @@
 
 
   /* latest-deal- section responsive start */
+  .latest-deal-sizeing{
+    width: 500px;
+    margin: 1px 0px 1px;
+    padding-left: 0px;
+  }
   .latest-deal-tittle h2{
     width: 300px;
     padding-top: 0px;
@@ -411,6 +416,7 @@
   width: 180px;
   height: 130px;
   margin-left: 15px;
+  margin-top: 0;
 }
 .footer-1st p{
   width: 350px;
@@ -426,6 +432,7 @@
 .footer-4th{
   margin-left: 15px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 /* footer section responsive end */
 
