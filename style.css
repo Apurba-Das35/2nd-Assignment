@@ -230,10 +230,16 @@
     display: none;
   }
   .list-4 {
-    margin-right: 60px;
+    margin-right: 230px;
+    
   }
   .list-4 a {
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .nav-logo img{
+    width: 65px;
+    height: 60px;
+    padding-top: 20px;
   }
 
   /* navbar responsive end */
