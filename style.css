@@ -348,15 +348,58 @@
 
   /* latest-deal- section responsive start */
   .latest-deal-tittle h2{
-    width: 500px;
+    width: 300px;
     padding-top: 0px;
+    font-size: 30px;
     
   }
   .latest-deal-tittle p{
-    width: 500px;
-    padding-left: 20px;
+    width: 320px;
+    padding-left: 0px;
     margin-left: 0;
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+
+
+  .latest-deals{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    padding-left: 0;
+  }
+  .latest-deals img{
+    width: 400px;
+    height: 193px;
+    
+  }
+  .latest-deal-img {
+    padding-left: 1px;
   }
   /* latest-deal- section responsive end */
+
+/* Join the colorful branch responsive design start */
+
+.branch-img img{
+  width: 365px;
+  height: 250px;
+}
+.branch-tittle h2{
+  width: 370px;
+  padding-top: 80px;
+  font-size: 20px;
+}
+.branch-tittle input{
+  width: 220px;
+  margin-left: 25px;
+  font-weight: bold;
+}
+.branch-tittle button{
+  width: 90px;
+  gap: 0;
+  font-weight: bold;
+}
+/* Join the colorful branch responsive design end */
+
 }
