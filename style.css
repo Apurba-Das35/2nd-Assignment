@@ -402,4 +402,32 @@
 }
 /* Join the colorful branch responsive design end */
 
+/* footer section responsive start */
+.footer-section{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.footer-1st img{
+  width: 180px;
+  height: 130px;
+  margin-left: 15px;
+}
+.footer-1st p{
+  width: 350px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.footer-2nd{
+  margin-left: 15px;
+}
+.footer-3rd {
+  margin-left: 15px;
+}
+.footer-4th{
+  margin-left: 15px;
+  padding-bottom: 20px;
+}
+/* footer section responsive end */
+
+
 }
