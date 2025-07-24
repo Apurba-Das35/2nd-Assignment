@@ -221,8 +221,10 @@
 
 /* navbar responsive start */
 @media screen and (max-width: 576px) {
+  
   .navbar {
     width: 576px;
+    margin-left: 0;
   }
   .list-1,
   .list-2,
@@ -249,18 +251,23 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
-    margin-left: px;
+    margin-top: 30px;
   }
   .banner-tittle h1 {
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 0;
   }
   .banner-tittle p {
-    width: 500px;
+    width: 340px;
     font-size: 20px;
+    line-height: 25px;
+    margin-left: 15px;
   }
   .banner-img img {
-    width: 555px;
-    height: 400px;
+    width: 360px;
+    height: 250px;
     margin-top: 20px;
     border: none;
   }
@@ -269,25 +276,41 @@
   /* our plants section responsive start */
 
   .plants-tittle h2 {
-    width: 576px;
+    width: 370px;
+    margin-top: 0;
+    font-size: 40px;
   }
   .plants-tittle p {
-    width: 500px;
-    margin-left: 30px;
+    width: 330px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 15px;
   }
+
+
   .plants-section-parents {
-    width: 576px;
+    width: 350px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding-left: 50px;
-    padding-right: 70px;
+    gap: 0px;
+    margin-left: 10px;
   }
   .plants-section {
-    width: 250px;
+    width: 160px;
+  }
+  .plants-section h5{
+    font-size: 18px;
+    width: 200px;
+    padding-left: 25px;
+  }
+  .plants-section h3{
+    width: 200px;
+    padding-left: 38px;
+    padding-bottom: 20px;
   }
   .plants-section button {
-    width: 250px;
+    width: 160px;
+    margin-bottom: 20px;
   }
   /* our plants section responsive end */
 
