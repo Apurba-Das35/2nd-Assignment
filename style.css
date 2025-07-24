@@ -318,25 +318,30 @@
   .plants-lover{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding-top: 20px;
   }
   .store-badge {
     display: none;
   }
   .store-flower {
-    width: 520px;
-    height: 500px;
-    margin-left: 18px;
+    width: 330px;
+    height: 330px;
+    margin-left: 15px;
     padding-top: 0px;
   }
   .plants-lover-tittle h2{
     padding-left: 18px;
-    width: 576px;
-    font-size: 42px;
+    width: 300px;
+    font-size: 25px;
+    padding-top: 10px;
   }
   .plants-lover-ol li{
     font-size: 16px;
     line-height: 20px;
-    width: 430px;
+    width: 300px;
+  }
+  .plants-lover ol{
+    padding-left: 45px;
   }
   /* Plants lover section responsive end */
 
