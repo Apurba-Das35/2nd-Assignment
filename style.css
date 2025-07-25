@@ -221,7 +221,6 @@
 
 /* navbar responsive start */
 @media screen and (max-width: 576px) {
-  
   .navbar {
     width: 576px;
     margin-left: 0;
@@ -233,37 +232,40 @@
   }
   .list-4 {
     margin-right: 230px;
-    
   }
   .list-4 a {
     font-size: 20px;
   }
-  .nav-logo img{
+  .nav-logo img {
     width: 65px;
     height: 60px;
     padding-top: 20px;
   }
-
+  .nav-logo {
+    margin-left: 15px;
+  }
   /* navbar responsive end */
 
   /* banner responsive start */
   .banner-section {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-    margin-top: 30px;
+    width: 400px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-direction: column-reverse;
+    margin-top: 50px;
   }
   .banner-tittle h1 {
     font-size: 30px;
     font-weight: 600;
-    margin-left: 15px;
+    margin-left: 360px;
     margin-top: 0;
   }
   .banner-tittle p {
-    width: 340px;
-    font-size: 20px;
-    line-height: 25px;
-    margin-left: 15px;
+    width: 320px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 360px;
   }
   .banner-img img {
     width: 360px;
@@ -274,7 +276,9 @@
   /* banner responsive end */
 
   /* our plants section responsive start */
-
+  .plants-tittle{
+    margin-top: 50px;
+  }
   .plants-tittle h2 {
     width: 370px;
     margin-top: 0;
@@ -287,7 +291,6 @@
     margin-left: 15px;
   }
 
-
   .plants-section-parents {
     width: 350px;
     display: grid;
@@ -298,12 +301,12 @@
   .plants-section {
     width: 160px;
   }
-  .plants-section h5{
+  .plants-section h5 {
     font-size: 18px;
     width: 200px;
     padding-left: 25px;
   }
-  .plants-section h3{
+  .plants-section h3 {
     width: 200px;
     padding-left: 38px;
     padding-bottom: 20px;
@@ -315,7 +318,7 @@
   /* our plants section responsive end */
 
   /* Plants lover section responsive start */
-  .plants-lover{
+  .plants-lover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding-top: 20px;
@@ -329,79 +332,78 @@
     margin-left: 15px;
     padding-top: 0px;
   }
-  .plants-lover-tittle h2{
+  .plants-lover-tittle h2 {
     padding-left: 18px;
     width: 300px;
     font-size: 25px;
     padding-top: 10px;
   }
-  .plants-lover-ol li{
+  .plants-lover-ol li {
     font-size: 16px;
     line-height: 20px;
     width: 300px;
   }
-  .plants-lover ol{
+  .plants-lover ol {
     padding-left: 45px;
   }
   /* Plants lover section responsive end */
 
-
   /* latest-deal- section responsive start */
-  .latest-deal-sizeing{
+  .latest-deal-tittle{
+    padding-top: 80px;
+  }
+  .latest-deal-sizeing {
     width: 390px;
     margin: 0px 0px 0px;
     padding-left: 0px;
+    padding-right: 40px;
   }
-  .latest-deal-tittle h2{
-    width: 380px;
+  .latest-deal-tittle h2 {
+    width: 340px;
     padding-top: 0px;
     font-size: 30px;
-    
   }
-  .latest-deal-tittle p{
+  .latest-deal-tittle p {
     width: 320px;
     padding-left: 0px;
-    margin-left: 25px;
+    margin-left: 17px;
     font-size: 15px;
     line-height: 20px;
   }
 
-
-
-  .latest-deals{
+  .latest-deals {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
+
     padding-left: 0;
   }
-  .latest-deals img{
+  .latest-deals img {
     width: 360px;
     height: 193px;
-    
   }
-  .latest-deal-h5-1{
+  .latest-deal-h5-1 {
     margin-left: 70px;
     margin-top: 70px;
   }
-  .latest-deal-a-1{
+  .latest-deal-a-1 {
     margin-left: 130px;
     margin-top: 105px;
   }
-  .latest-deal-h5-2{
+  .latest-deal-h5-2 {
     margin-left: 80px;
     margin-top: 290px;
   }
-  .latest-deal-a-2{
+  .latest-deal-a-2 {
     margin-left: 130px;
     margin-top: 325px;
   }
-  .latest-deal-h3-3{
+  .latest-deal-h3-3 {
     margin-left: 70px;
     margin-top: 510px;
     font-size: 20px;
     font-weight: 700;
   }
-  .latest-deal-a-3{
+  .latest-deal-a-3 {
     margin-left: 130px;
     margin-top: 545px;
     font-size: 18px;
@@ -409,57 +411,55 @@
   }
   /* latest-deal- section responsive end */
 
-/* Join the colorful branch responsive design start */
+  /* Join the colorful branch responsive design start */
 
-.branch-img img{
-  width: 365px;
-  height: 250px;
-}
-.branch-tittle h2{
-  width: 370px;
-  padding-top: 80px;
-  font-size: 20px;
-}
-.branch-tittle input{
-  width: 220px;
-  margin-left: 25px;
-  font-weight: bold;
-}
-.branch-tittle button{
-  width: 90px;
-  gap: 0;
-  font-weight: bold;
-}
-/* Join the colorful branch responsive design end */
+  .branch-img img {
+    width: 365px;
+    height: 250px;
+  }
+  .branch-tittle h2 {
+    width: 370px;
+    padding-top: 80px;
+    font-size: 20px;
+  }
+  .branch-tittle input {
+    width: 220px;
+    margin-left: 25px;
+    font-weight: bold;
+  }
+  .branch-tittle button {
+    width: 90px;
+    gap: 0;
+    font-weight: bold;
+  }
+  /* Join the colorful branch responsive design end */
 
-/* footer section responsive start */
-.footer-section{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
-.footer-1st img{
-  width: 180px;
-  height: 130px;
-  margin-left: 15px;
-  margin-top: 0;
-}
-.footer-1st p{
-  width: 350px;
-  font-size: 16px;
-  margin-left: 15px;
-}
-.footer-2nd{
-  margin-left: 15px;
-}
-.footer-3rd {
-  margin-left: 15px;
-}
-.footer-4th{
-  margin-left: 15px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-/* footer section responsive end */
-
-
+  /* footer section responsive start */
+  .footer-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-1st img {
+    width: 180px;
+    height: 130px;
+    margin-left: 15px;
+    margin-top: 0;
+  }
+  .footer-1st p {
+    width: 350px;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .footer-2nd {
+    margin-left: 15px;
+  }
+  .footer-3rd {
+    margin-left: 15px;
+  }
+  .footer-4th {
+    margin-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  /* footer section responsive end */
 }
