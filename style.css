@@ -217,7 +217,7 @@
 }
 /* footer section end */
 
-/* mobile responsive style start */ /* mobile responsive style start */
+/* mobile responsive style start /* mobile responsive style start */
 
 /* navbar responsive start */
 @media screen and (max-width: 576px) {
@@ -353,10 +353,10 @@
     padding-top: 80px;
   }
   .latest-deal-sizeing {
-    width: 390px;
+    width: 395px;
     margin: 0px 0px 0px;
     padding-left: 0px;
-    padding-right: 40px;
+    padding-right: 30px;
   }
   .latest-deal-tittle h2 {
     width: 340px;
@@ -462,4 +462,4 @@
     padding-top: 20px;
   }
   /* footer section responsive end */
-}
+} 
